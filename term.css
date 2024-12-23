@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 218, 220) !important;
+
+}
+
+
+.privacy-policy {
+    align-items: center;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content-container {
+    width: 74%;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 29px 32px 18px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+    margin-bottom: 10px;
+}
+
+.top {
+    text-align: center;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+p.caption {
+    margin-top: -1.2rem;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding-top: 1.3rem;
+}
+
+.heading-1 {
+    margin-top: 1.5rem;
+}
+
+.heading-1 h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.heading-1 p {
+    padding-top: .5rem;
+}
+
+.test {
+    margin-top: -1rem;
+}
+
+@media (max-width:768px) {
+    .heading {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    body {
+        background-color: #ffffff !important;
+    }
+
+    .tr {
+        font-size: .9rem;
+    }
+
+
+    .ter {
+        font-size: .7rem;
+    }
+
+    .privacy-policy {
+        flex: none;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+    .content-container {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: left;
+        background-color: rgb(255, 255, 255);
+        padding: 29px 32px 18px;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+        background-image: none;
+        column-gap: unset !important;
+        font-style: normal;
+        font-family: "Poppins";
+    }
+
+    .link {
+        word-break: break-all;
+    }
+
+
+
+}
+
+/* .content-container {
+    width: 74%;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 29px 32px 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+    background-image: none;
+    column-gap: unset !important;
+    font-style: normal;
+    font-family: "Poppins";
+    margin-bottom: 10px;
+
+} */
